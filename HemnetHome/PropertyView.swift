@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PropertyView.swift
 //  HemnetHome
 //
 //  Created by Jonas Lind on 2024-05-06.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @StateObject private var viewModel = HomeViewModel()
+struct PropertyView: View {
+    @StateObject private var viewModel = PropertyViewModel()
 
     var body: some View {
         NavigationView {
             ScrollView {
                 
                 ForEach(viewModel.highlightedProperties, id: \.id) { property in
-                    NavigationLink(destination: HomeDetailView(viewModel: viewModel, property: property)) {
-                        HomeRowView(home: property, isHighlighted: true)
+                    NavigationLink(destination: PropertyDetailView(viewModel: viewModel, property: property)) {
+                        PropertyRowView(property: property, isHighlighted: true)
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
@@ -52,8 +52,8 @@ struct ContentView: View {
                 }
 
                 ForEach(viewModel.properties, id: \.id) { property in
-                    NavigationLink(destination: HomeDetailView(viewModel: viewModel, property: property)) {
-                        HomeRowView(home: property)
+                    NavigationLink(destination: PropertyDetailView(viewModel: viewModel, property: property)) {
+                        PropertyRowView(property: property)
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
@@ -62,14 +62,14 @@ struct ContentView: View {
     }
 }
 
-struct HomeRowView: View {
-    var home: Property
+struct PropertyRowView: View {
+    var property: Property
     var isHighlighted: Bool = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
             
-            AsyncImage(url: URL(string: home.image)) { image in
+            AsyncImage(url: URL(string: property.image)) { image in
                 image
                     .resizable()
                     .scaledToFill()
@@ -82,18 +82,18 @@ struct HomeRowView: View {
             }
             .padding(.bottom, 10)
 
-            Text(home.streetAddress)
+            Text(property.streetAddress)
                 .font(.headline)
             
-            Text("\(home.area), \(home.municipality)")
+            Text("\(property.area), \(property.municipality)")
                 .font(.subheadline)
             
             HStack {
-                Text("\(home.askingPrice) SEK")
+                Text("\(property.askingPrice) SEK")
                 Spacer()
-                Text("\(home.livingArea) m2")
+                Text("\(property.livingArea) m2")
                 Spacer()
-                Text("\(home.numberOfRooms) rooms")
+                Text("\(property.numberOfRooms) rooms")
             }
             .frame(width: .infinity)
             .font(.subheadline)
@@ -103,15 +103,15 @@ struct HomeRowView: View {
     }
 }
 
-struct HomeDetailView: View {
-    @ObservedObject var viewModel: HomeViewModel
+struct PropertyDetailView: View {
+    @ObservedObject var viewModel: PropertyViewModel
     var property: Property
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 10) {
             
-                if let details = viewModel.homeDetails {
+                if let details = viewModel.propertyDetails {
                     AsyncImage(url: URL(string: details.image)) { image in
                         image.resizable()
                     } placeholder: {
@@ -144,13 +144,13 @@ struct HomeDetailView: View {
             .padding(20)
         }
         .onAppear {
-            viewModel.fetchHomeDetails(for: property.id)
+            viewModel.fetchPropertyDetails(for: property.id)
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct PropertyView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PropertyView()
     }
 }

@@ -1,4 +1,9 @@
-// Home.swift
+//
+//  PropertyModel.swift
+//  HemnetHome
+//
+//  Created by Jonas Lind on 2024-05-06.
+//
 
 import Foundation
 

@@ -1,20 +1,25 @@
-// HomeViewModel.swift
+//
+//  PropertyViewModel.swift
+//  HemnetHome
+//
+//  Created by Jonas Lind on 2024-05-06.
+//
 
 import Foundation
 
-class HomeViewModel: ObservableObject {
+class PropertyViewModel: ObservableObject {
     @Published var area: Area?
     @Published var properties = [Property]()
     @Published var highlightedProperties = [Property]()
 
-    @Published var homeDetails: PropertyDetails?
+    @Published var propertyDetails: PropertyDetails?
 
     init() {
-        fetchHomes()
+        fetchProperties()
     }
 
     // Function to fetch homes data
-    func fetchHomes() {
+    func fetchProperties() {
         guard let url = URL(string: "https://pastebin.com/raw/nH5NinBi") else {
             print("Invalid URL")
             return
@@ -53,7 +58,7 @@ class HomeViewModel: ObservableObject {
     }
 
     // Function to fetch home details
-    func fetchHomeDetails(for id: String) {
+    func fetchPropertyDetails(for id: String) {
         // We only have one home details, so the id will not be used in this case
         
         guard let url = URL(string: "https://pastebin.com/raw/uj6vtukE") else {
@@ -70,7 +75,7 @@ class HomeViewModel: ObservableObject {
                     let decoder = JSONDecoder()
                     do {
                         let details = try decoder.decode(PropertyDetails.self, from: data)
-                        self.homeDetails = details
+                        self.propertyDetails = details
                     } catch {
                         print("Unable to decode home details data: \(error)")
                         // handle error and update UI

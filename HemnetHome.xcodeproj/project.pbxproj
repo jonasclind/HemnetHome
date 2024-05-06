@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2D474B02BE959E600677976 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AE2BE959E600677976 /* HomeViewModel.swift */; };
-		A2D474B12BE959E600677976 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AF2BE959E600677976 /* HomeModel.swift */; };
+		A2D474B02BE959E600677976 /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AE2BE959E600677976 /* PropertyViewModel.swift */; };
+		A2D474B12BE959E600677976 /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AF2BE959E600677976 /* PropertyModel.swift */; };
 		A2FD0A9D2BE94E2700ED6200 /* HemnetHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */; };
-		A2FD0A9F2BE94E2700ED6200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0A9E2BE94E2700ED6200 /* ContentView.swift */; };
+		A2FD0A9F2BE94E2700ED6200 /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0A9E2BE94E2700ED6200 /* PropertyView.swift */; };
 		A2FD0AA12BE94E2900ED6200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */; };
 		A2FD0AA42BE94E2900ED6200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FD0AA32BE94E2900ED6200 /* Preview Assets.xcassets */; };
 		A2FD0AAE2BE94E2900ED6200 /* HemnetHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0AAD2BE94E2900ED6200 /* HemnetHomeTests.swift */; };
@@ -36,11 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2D474AE2BE959E600677976 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		A2D474AF2BE959E600677976 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		A2D474AE2BE959E600677976 /* PropertyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
+		A2D474AF2BE959E600677976 /* PropertyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
 		A2FD0A992BE94E2700ED6200 /* HemnetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HemnetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetHomeApp.swift; sourceTree = "<group>"; };
-		A2FD0A9E2BE94E2700ED6200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2FD0A9E2BE94E2700ED6200 /* PropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
 		A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2FD0AA32BE94E2900ED6200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2FD0AA92BE94E2900ED6200 /* HemnetHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemnetHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,9 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */,
-				A2FD0A9E2BE94E2700ED6200 /* ContentView.swift */,
-				A2D474AF2BE959E600677976 /* HomeModel.swift */,
-				A2D474AE2BE959E600677976 /* HomeViewModel.swift */,
+				A2FD0A9E2BE94E2700ED6200 /* PropertyView.swift */,
+				A2D474AF2BE959E600677976 /* PropertyModel.swift */,
+				A2D474AE2BE959E600677976 /* PropertyViewModel.swift */,
 				A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */,
 				A2FD0AA22BE94E2900ED6200 /* Preview Content */,
 			);
@@ -263,9 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D474B12BE959E600677976 /* HomeModel.swift in Sources */,
-				A2FD0A9F2BE94E2700ED6200 /* ContentView.swift in Sources */,
-				A2D474B02BE959E600677976 /* HomeViewModel.swift in Sources */,
+				A2D474B12BE959E600677976 /* PropertyModel.swift in Sources */,
+				A2FD0A9F2BE94E2700ED6200 /* PropertyView.swift in Sources */,
+				A2D474B02BE959E600677976 /* PropertyViewModel.swift in Sources */,
 				A2FD0A9D2BE94E2700ED6200 /* HemnetHomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

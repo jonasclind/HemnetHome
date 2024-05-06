@@ -11,7 +11,7 @@ import SwiftUI
 struct HemnetHomeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PropertyView()
                 .tint(.black)
         }
     }
