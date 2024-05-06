@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D474B02BE959E600677976 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AE2BE959E600677976 /* HomeViewModel.swift */; };
+		A2D474B12BE959E600677976 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AF2BE959E600677976 /* HomeModel.swift */; };
+		A2FD0A9D2BE94E2700ED6200 /* HemnetHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */; };
+		A2FD0A9F2BE94E2700ED6200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0A9E2BE94E2700ED6200 /* ContentView.swift */; };
+		A2FD0AA12BE94E2900ED6200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */; };
+		A2FD0AA42BE94E2900ED6200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FD0AA32BE94E2900ED6200 /* Preview Assets.xcassets */; };
+		A2FD0AAE2BE94E2900ED6200 /* HemnetHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0AAD2BE94E2900ED6200 /* HemnetHomeTests.swift */; };
+		A2FD0AB82BE94E2900ED6200 /* HemnetHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0AB72BE94E2900ED6200 /* HemnetHomeUITests.swift */; };
+		A2FD0ABA2BE94E2900ED6200 /* HemnetHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0AB92BE94E2900ED6200 /* HemnetHomeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2FD0AAA2BE94E2900ED6200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FD0A912BE94E2700ED6200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FD0A982BE94E2700ED6200;
+			remoteInfo = HemnetHome;
+		};
+		A2FD0AB42BE94E2900ED6200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FD0A912BE94E2700ED6200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FD0A982BE94E2700ED6200;
+			remoteInfo = HemnetHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D474AE2BE959E600677976 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A2D474AF2BE959E600677976 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		A2FD0A992BE94E2700ED6200 /* HemnetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HemnetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetHomeApp.swift; sourceTree = "<group>"; };
+		A2FD0A9E2BE94E2700ED6200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2FD0AA32BE94E2900ED6200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2FD0AA92BE94E2900ED6200 /* HemnetHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemnetHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FD0AAD2BE94E2900ED6200 /* HemnetHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetHomeTests.swift; sourceTree = "<group>"; };
+		A2FD0AB32BE94E2900ED6200 /* HemnetHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemnetHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FD0AB72BE94E2900ED6200 /* HemnetHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetHomeUITests.swift; sourceTree = "<group>"; };
+		A2FD0AB92BE94E2900ED6200 /* HemnetHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemnetHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FD0A962BE94E2700ED6200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD0AA62BE94E2900ED6200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD0AB02BE94E2900ED6200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FD0A902BE94E2700ED6200 = {
+			isa = PBXGroup;
+			children = (
+				A2FD0A9B2BE94E2700ED6200 /* HemnetHome */,
+				A2FD0AAC2BE94E2900ED6200 /* HemnetHomeTests */,
+				A2FD0AB62BE94E2900ED6200 /* HemnetHomeUITests */,
+				A2FD0A9A2BE94E2700ED6200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FD0A9A2BE94E2700ED6200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD0A992BE94E2700ED6200 /* HemnetHome.app */,
+				A2FD0AA92BE94E2900ED6200 /* HemnetHomeTests.xctest */,
+				A2FD0AB32BE94E2900ED6200 /* HemnetHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FD0A9B2BE94E2700ED6200 /* HemnetHome */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */,
+				A2FD0A9E2BE94E2700ED6200 /* ContentView.swift */,
+				A2D474AF2BE959E600677976 /* HomeModel.swift */,
+				A2D474AE2BE959E600677976 /* HomeViewModel.swift */,
+				A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */,
+				A2FD0AA22BE94E2900ED6200 /* Preview Content */,
+			);
+			path = HemnetHome;
+			sourceTree = "<group>";
+		};
+		A2FD0AA22BE94E2900ED6200 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD0AA32BE94E2900ED6200 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2FD0AAC2BE94E2900ED6200 /* HemnetHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD0AAD2BE94E2900ED6200 /* HemnetHomeTests.swift */,
+			);
+			path = HemnetHomeTests;
+			sourceTree = "<group>";
+		};
+		A2FD0AB62BE94E2900ED6200 /* HemnetHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD0AB72BE94E2900ED6200 /* HemnetHomeUITests.swift */,
+				A2FD0AB92BE94E2900ED6200 /* HemnetHomeUITestsLaunchTests.swift */,
+			);
+			path = HemnetHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FD0A982BE94E2700ED6200 /* HemnetHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FD0ABD2BE94E2900ED6200 /* Build configuration list for PBXNativeTarget "HemnetHome" */;
+			buildPhases = (
+				A2FD0A952BE94E2700ED6200 /* Sources */,
+				A2FD0A962BE94E2700ED6200 /* Frameworks */,
+				A2FD0A972BE94E2700ED6200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HemnetHome;
+			productName = HemnetHome;
+			productReference = A2FD0A992BE94E2700ED6200 /* HemnetHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2FD0AA82BE94E2900ED6200 /* HemnetHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FD0AC02BE94E2900ED6200 /* Build configuration list for PBXNativeTarget "HemnetHomeTests" */;
+			buildPhases = (
+				A2FD0AA52BE94E2900ED6200 /* Sources */,
+				A2FD0AA62BE94E2900ED6200 /* Frameworks */,
+				A2FD0AA72BE94E2900ED6200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FD0AAB2BE94E2900ED6200 /* PBXTargetDependency */,
+			);
+			name = HemnetHomeTests;
+			productName = HemnetHomeTests;
+			productReference = A2FD0AA92BE94E2900ED6200 /* HemnetHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2FD0AB22BE94E2900ED6200 /* HemnetHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FD0AC32BE94E2900ED6200 /* Build configuration list for PBXNativeTarget "HemnetHomeUITests" */;
+			buildPhases = (
+				A2FD0AAF2BE94E2900ED6200 /* Sources */,
+				A2FD0AB02BE94E2900ED6200 /* Frameworks */,
+				A2FD0AB12BE94E2900ED6200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FD0AB52BE94E2900ED6200 /* PBXTargetDependency */,
+			);
+			name = HemnetHomeUITests;
+			productName = HemnetHomeUITests;
+			productReference = A2FD0AB32BE94E2900ED6200 /* HemnetHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FD0A912BE94E2700ED6200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A2FD0A982BE94E2700ED6200 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A2FD0AA82BE94E2900ED6200 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A2FD0A982BE94E2700ED6200;
+					};
+					A2FD0AB22BE94E2900ED6200 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A2FD0A982BE94E2700ED6200;
+					};
+				};
+			};
+			buildConfigurationList = A2FD0A942BE94E2700ED6200 /* Build configuration list for PBXProject "HemnetHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2FD0A902BE94E2700ED6200;
+			productRefGroup = A2FD0A9A2BE94E2700ED6200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FD0A982BE94E2700ED6200 /* HemnetHome */,
+				A2FD0AA82BE94E2900ED6200 /* HemnetHomeTests */,
+				A2FD0AB22BE94E2900ED6200 /* HemnetHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FD0A972BE94E2700ED6200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD0AA42BE94E2900ED6200 /* Preview Assets.xcassets in Resources */,
+				A2FD0AA12BE94E2900ED6200 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD0AA72BE94E2900ED6200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD0AB12BE94E2900ED6200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FD0A952BE94E2700ED6200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D474B12BE959E600677976 /* HomeModel.swift in Sources */,
+				A2FD0A9F2BE94E2700ED6200 /* ContentView.swift in Sources */,
+				A2D474B02BE959E600677976 /* HomeViewModel.swift in Sources */,
+				A2FD0A9D2BE94E2700ED6200 /* HemnetHomeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD0AA52BE94E2900ED6200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD0AAE2BE94E2900ED6200 /* HemnetHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD0AAF2BE94E2900ED6200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD0ABA2BE94E2900ED6200 /* HemnetHomeUITestsLaunchTests.swift in Sources */,
+				A2FD0AB82BE94E2900ED6200 /* HemnetHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2FD0AAB2BE94E2900ED6200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FD0A982BE94E2700ED6200 /* HemnetHome */;
+			targetProxy = A2FD0AAA2BE94E2900ED6200 /* PBXContainerItemProxy */;
+		};
+		A2FD0AB52BE94E2900ED6200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FD0A982BE94E2700ED6200 /* HemnetHome */;
+			targetProxy = A2FD0AB42BE94E2900ED6200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2FD0ABB2BE94E2900ED6200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2FD0ABC2BE94E2900ED6200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FD0ABE2BE94E2900ED6200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HemnetHome/Preview Content\"";
+				DEVELOPMENT_TEAM = A2C8667LY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HemnetHome;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.tradrutan.hemnet.HemnetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2FD0ABF2BE94E2900ED6200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HemnetHome/Preview Content\"";
+				DEVELOPMENT_TEAM = A2C8667LY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HemnetHome;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.tradrutan.hemnet.HemnetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A2FD0AC12BE94E2900ED6200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2C8667LY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.tradrutan.hemnet.HemnetHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HemnetHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HemnetHome";
+			};
+			name = Debug;
+		};
+		A2FD0AC22BE94E2900ED6200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2C8667LY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.tradrutan.hemnet.HemnetHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HemnetHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HemnetHome";
+			};
+			name = Release;
+		};
+		A2FD0AC42BE94E2900ED6200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2C8667LY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.tradrutan.hemnet.HemnetHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HemnetHome;
+			};
+			name = Debug;
+		};
+		A2FD0AC52BE94E2900ED6200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2C8667LY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.tradrutan.hemnet.HemnetHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HemnetHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FD0A942BE94E2700ED6200 /* Build configuration list for PBXProject "HemnetHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FD0ABB2BE94E2900ED6200 /* Debug */,
+				A2FD0ABC2BE94E2900ED6200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FD0ABD2BE94E2900ED6200 /* Build configuration list for PBXNativeTarget "HemnetHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FD0ABE2BE94E2900ED6200 /* Debug */,
+				A2FD0ABF2BE94E2900ED6200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FD0AC02BE94E2900ED6200 /* Build configuration list for PBXNativeTarget "HemnetHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FD0AC12BE94E2900ED6200 /* Debug */,
+				A2FD0AC22BE94E2900ED6200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FD0AC32BE94E2900ED6200 /* Build configuration list for PBXNativeTarget "HemnetHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FD0AC42BE94E2900ED6200 /* Debug */,
+				A2FD0AC52BE94E2900ED6200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FD0A912BE94E2700ED6200 /* Project object */;
+}
