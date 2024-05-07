@@ -77,6 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A20064A02BEA03EA00251B98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD0A9E2BE94E2700ED6200 /* PropertyView.swift */,
+				A200649E2BE9FDA600251B98 /* PropertyDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A20064A12BEA040300251B98 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A2D474AE2BE959E600677976 /* PropertyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A20064A22BEA041300251B98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2D474AF2BE959E600677976 /* PropertyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A2FD0A902BE94E2700ED6200 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */,
-				A2FD0A9E2BE94E2700ED6200 /* PropertyView.swift */,
-				A2D474AF2BE959E600677976 /* PropertyModel.swift */,
-				A2D474AE2BE959E600677976 /* PropertyViewModel.swift */,
+				A20064A02BEA03EA00251B98 /* Views */,
+				A20064A12BEA040300251B98 /* ViewModels */,
+				A20064A22BEA041300251B98 /* Models */,
 				A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */,
 				A2FD0AA22BE94E2900ED6200 /* Preview Content */,
-				A200649E2BE9FDA600251B98 /* PropertyDetailView.swift */,
 			);
 			path = HemnetHome;
 			sourceTree = "<group>";

@@ -10,11 +10,11 @@ import XCTest
 
 final class HemnetHomeTests: XCTestCase {
 
-    var viewModel: HomeViewModel!
+    var viewModel: PropertyViewModel!
 
     override func setUp() {
         super.setUp()
-        viewModel = HomeViewModel()
+        viewModel = PropertyViewModel()
     }
 
     override func tearDown() {
@@ -25,7 +25,7 @@ final class HemnetHomeTests: XCTestCase {
     func testFetchHomes() {
         let expectation = self.expectation(description: "Fetches homes")
 
-        viewModel.fetchHomes()
+        viewModel.fetchProperties()
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
             XCTAssertNotNil(self.viewModel.area, "Area should not be nil")
@@ -39,10 +39,10 @@ final class HemnetHomeTests: XCTestCase {
     func testFetchHomeDetails() {
         let expectation = self.expectation(description: "Fetches home details")
 
-        viewModel.fetchHomeDetails(for: "1234567890")
+        viewModel.fetchPropertyDetails(for: "1234567890")
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            XCTAssertNotNil(self.viewModel.homeDetails, "Home details should not be nil")
+            XCTAssertNotNil(self.viewModel.propertyDetails, "Home details should not be nil")
             expectation.fulfill()
         }
 
