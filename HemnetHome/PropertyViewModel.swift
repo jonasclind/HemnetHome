@@ -14,10 +14,6 @@ class PropertyViewModel: ObservableObject {
 
     @Published var propertyDetails: PropertyDetails?
 
-    init() {
-        fetchProperties()
-    }
-
     // Function to fetch homes data
     func fetchProperties() {
         guard let url = URL(string: "https://pastebin.com/raw/nH5NinBi") else {
@@ -36,6 +32,11 @@ class PropertyViewModel: ObservableObject {
                     let decoder = JSONDecoder()
                     do {
                         let response = try decoder.decode(Response.self, from: data)
+                        
+                        self.area = nil
+                        self.properties = []
+                        self.highlightedProperties = []
+                        
                         for item in response.items {
                             switch item {
                             case .area(let area):

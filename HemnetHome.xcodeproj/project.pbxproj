@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A200649F2BE9FDA600251B98 /* PropertyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200649E2BE9FDA600251B98 /* PropertyDetailView.swift */; };
 		A2D474B02BE959E600677976 /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AE2BE959E600677976 /* PropertyViewModel.swift */; };
 		A2D474B12BE959E600677976 /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D474AF2BE959E600677976 /* PropertyModel.swift */; };
 		A2FD0A9D2BE94E2700ED6200 /* HemnetHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD0A9C2BE94E2700ED6200 /* HemnetHomeApp.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A200649E2BE9FDA600251B98 /* PropertyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailView.swift; sourceTree = "<group>"; };
 		A2D474AE2BE959E600677976 /* PropertyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
 		A2D474AF2BE959E600677976 /* PropertyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
 		A2FD0A992BE94E2700ED6200 /* HemnetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HemnetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 				A2D474AE2BE959E600677976 /* PropertyViewModel.swift */,
 				A2FD0AA02BE94E2900ED6200 /* Assets.xcassets */,
 				A2FD0AA22BE94E2900ED6200 /* Preview Content */,
+				A200649E2BE9FDA600251B98 /* PropertyDetailView.swift */,
 			);
 			path = HemnetHome;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				A2FD0A9F2BE94E2700ED6200 /* PropertyView.swift in Sources */,
 				A2D474B02BE959E600677976 /* PropertyViewModel.swift in Sources */,
 				A2FD0A9D2BE94E2700ED6200 /* HemnetHomeApp.swift in Sources */,
+				A200649F2BE9FDA600251B98 /* PropertyDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
